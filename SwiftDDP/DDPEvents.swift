@@ -63,7 +63,7 @@ public struct DDPEvents {
     */
     
     // public var onConnected:         (session:String) -> () = {session in log.info("connected with session: \(session)")}
-    public var onConnected: Completion = Completion { session in log.info("connected with session: \(session)")}
+    public var onConnected: Completion = Completion(methodCallback: { session in log.info("connected with session: \(session)")})
 
     /**
     onDisconnected executes when the client is disconnected
