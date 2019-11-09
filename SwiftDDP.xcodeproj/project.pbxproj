@@ -94,17 +94,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-<<<<<<< HEAD
-		ADF2F0D22196C60F00A671F2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				ADF2F0D32196C60F00A671F2 /* CryptoSwift.framework.dSYM in CopyFiles */,
-				ADF2F0D42196C60F00A671F2 /* SwiftWebSocket.framework.dSYM in CopyFiles */,
-				ADF2F0D52196C60F00A671F2 /* XCGLogger.framework.dSYM in CopyFiles */,
-=======
 		BA4DA4D821690F2000264579 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,7 +102,6 @@
 			files = (
 				BA4DA4D921690F4300264579 /* Nimble.framework in CopyFiles */,
 				BA4DA4DA21690F4600264579 /* Quick.framework in CopyFiles */,
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,22 +131,6 @@
 		AAFDED3C1D6BF984000583AA /* SwiftDDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFDED3E1D6BF984000583AA /* SwiftDDP-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDDP-OSX.h"; sourceTree = "<group>"; };
 		AAFDED401D6BF984000583AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		AD93F6D82196B5A5006BCCC8 /* SwiftDDPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD93F6DA2196B5A5006BCCC8 /* SwiftDDPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDDPFramework.h; sourceTree = "<group>"; };
-		AD93F6DB2196B5A5006BCCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD93F7172196B7BA006BCCC8 /* SwiftDDPTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDPTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD93F7192196B7BA006BCCC8 /* SwiftDDPTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDDPTouch.h; sourceTree = "<group>"; };
-		AD93F71A2196B7BA006BCCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADF2F0D92196C60F00A671F2 /* SwiftDDP copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SwiftDDP copy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADF2F0DA2196C60F00A671F2 /* SwiftDDP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftDDP copy-Info.plist"; path = "/Users/marko/Desktop/SwiftDDP/SwiftDDP copy-Info.plist"; sourceTree = "<absolute>"; };
-		ADF2F0E02196C64D00A671F2 /* TGSSwiftDDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGSSwiftDDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADF2F0E22196C64D00A671F2 /* TGSSwiftDDP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSSwiftDDP.h; sourceTree = "<group>"; };
-		ADF2F0E32196C64D00A671F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADFB02A62196A97F00C05B49 /* Swift_DDP_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swift_DDP_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADFB02A82196A97F00C05B49 /* Swift_DDP_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_DDP_Framework.h; sourceTree = "<group>"; };
-		ADFB02A92196A97F00C05B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-=======
 		BA4DA481216605B500264579 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = "<group>"; };
 		BA4DA482216605B500264579 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 		BA4DA483216605B500264579 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/Mac/XCGLogger.framework; sourceTree = "<group>"; };
@@ -183,7 +155,6 @@
 		BAA403C02169AE0E00F572F3 /* DDPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPExtensions.swift; sourceTree = "<group>"; };
 		BAA403C12169AE0E00F572F3 /* MeteorCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCollection.swift; sourceTree = "<group>"; };
 		BAA403C22169AE0E00F572F3 /* Meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 		D02A71DC1BBEFBCA00940C17 /* SwiftDDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02A71E11BBEFBCA00940C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02A72271BBF01E900940C17 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
@@ -236,44 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD93F6D52196B5A5006BCCC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD93F7142196B7BA006BCCC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0CB2196C60F00A671F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADF2F0CC2196C60F00A671F2 /* CryptoSwift.framework in Frameworks */,
-				ADF2F0CD2196C60F00A671F2 /* SwiftWebSocket.framework in Frameworks */,
-				ADF2F0CE2196C60F00A671F2 /* XCGLogger.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0DD2196C64D00A671F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADFB02A32196A97F00C05B49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D02A71D81BBEFBCA00940C17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,42 +248,6 @@
 			path = "SwiftDDP-OSX";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		AD93F6D92196B5A5006BCCC8 /* SwiftDDPFramework */ = {
-			isa = PBXGroup;
-			children = (
-				AD93F6DA2196B5A5006BCCC8 /* SwiftDDPFramework.h */,
-				AD93F6DB2196B5A5006BCCC8 /* Info.plist */,
-			);
-			path = SwiftDDPFramework;
-			sourceTree = "<group>";
-		};
-		AD93F7182196B7BA006BCCC8 /* SwiftDDPTouch */ = {
-			isa = PBXGroup;
-			children = (
-				AD93F7192196B7BA006BCCC8 /* SwiftDDPTouch.h */,
-				AD93F71A2196B7BA006BCCC8 /* Info.plist */,
-			);
-			path = SwiftDDPTouch;
-			sourceTree = "<group>";
-		};
-		ADF2F0E12196C64D00A671F2 /* TGSSwiftDDP */ = {
-			isa = PBXGroup;
-			children = (
-				ADF2F0E22196C64D00A671F2 /* TGSSwiftDDP.h */,
-				ADF2F0E32196C64D00A671F2 /* Info.plist */,
-			);
-			path = TGSSwiftDDP;
-			sourceTree = "<group>";
-		};
-		ADFB02A72196A97F00C05B49 /* Swift DDP Framework */ = {
-			isa = PBXGroup;
-			children = (
-				ADFB02A82196A97F00C05B49 /* Swift_DDP_Framework.h */,
-				ADFB02A92196A97F00C05B49 /* Info.plist */,
-			);
-			path = "Swift DDP Framework";
-=======
 		BA4DA4C221684D3C00264579 /* SwiftDDP-OSXTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,7 +275,6 @@
 				BAA403C22169AE0E00F572F3 /* Meteor.swift */,
 			);
 			path = Sources;
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			sourceTree = "<group>";
 		};
 		D02A71D21BBEFBCA00940C17 = {
@@ -389,21 +285,13 @@
 				D02A72541BBF07AF00940C17 /* Tests */,
 				AA0D2AC41D6BEEC700085B33 /* SwiftDDP-tvOS */,
 				AAFDED3D1D6BF984000583AA /* SwiftDDP-OSX */,
-<<<<<<< HEAD
-				ADFB02A72196A97F00C05B49 /* Swift DDP Framework */,
-				AD93F6D92196B5A5006BCCC8 /* SwiftDDPFramework */,
-				AD93F7182196B7BA006BCCC8 /* SwiftDDPTouch */,
-				ADF2F0E12196C64D00A671F2 /* TGSSwiftDDP */,
-=======
 				BA4DA4C221684D3C00264579 /* SwiftDDP-OSXTests */,
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 				D02A72341BBF02C200940C17 /* Frameworks */,
 				D02A72AE1BBF383700940C17 /* SwiftDDP.podspec */,
 				D02A72AF1BBF383700940C17 /* LICENSE */,
 				D02A72B11BBF383700940C17 /* Cartfile */,
 				D02A72611BBF0AE300940C17 /* README.md */,
 				D02A71DD1BBEFBCA00940C17 /* Products */,
-				ADF2F0DA2196C60F00A671F2 /* SwiftDDP copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,15 +302,7 @@
 				D02A72531BBF07AF00940C17 /* SwiftDDP Tests.xctest */,
 				AA0D2AC31D6BEEC700085B33 /* SwiftDDP.framework */,
 				AAFDED3C1D6BF984000583AA /* SwiftDDP.framework */,
-<<<<<<< HEAD
-				ADFB02A62196A97F00C05B49 /* Swift_DDP_Framework.framework */,
-				AD93F6D82196B5A5006BCCC8 /* SwiftDDPFramework.framework */,
-				AD93F7172196B7BA006BCCC8 /* SwiftDDPTouch.framework */,
-				ADF2F0D92196C60F00A671F2 /* SwiftDDP copy.framework */,
-				ADF2F0E02196C64D00A671F2 /* TGSSwiftDDP.framework */,
-=======
 				BA4DA4C121684D3C00264579 /* SwiftDDP-OSXTests.xctest */,
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -494,45 +374,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD93F6D32196B5A5006BCCC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD93F6DC2196B5A5006BCCC8 /* SwiftDDPFramework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD93F7122196B7BA006BCCC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD93F71B2196B7BA006BCCC8 /* SwiftDDPTouch.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0CF2196C60F00A671F2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0DB2196C64D00A671F2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADF2F0E42196C64D00A671F2 /* TGSSwiftDDP.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADFB02A12196A97F00C05B49 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADFB02AA2196A97F00C05B49 /* Swift_DDP_Framework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D02A71D91BBEFBCA00940C17 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,16 +421,6 @@
 			productReference = AAFDED3C1D6BF984000583AA /* SwiftDDP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-<<<<<<< HEAD
-		AD93F6D72196B5A5006BCCC8 /* SwiftDDPFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD93F6DD2196B5A5006BCCC8 /* Build configuration list for PBXNativeTarget "SwiftDDPFramework" */;
-			buildPhases = (
-				AD93F6D32196B5A5006BCCC8 /* Headers */,
-				AD93F6D42196B5A5006BCCC8 /* Sources */,
-				AD93F6D52196B5A5006BCCC8 /* Frameworks */,
-				AD93F6D62196B5A5006BCCC8 /* Resources */,
-=======
 		BA4DA4C021684D3C00264579 /* SwiftDDP-OSXTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA4DA4C921684D3C00264579 /* Build configuration list for PBXNativeTarget "SwiftDDP-OSXTests" */;
@@ -598,99 +429,16 @@
 				BA4DA4BE21684D3C00264579 /* Frameworks */,
 				BA4DA4BF21684D3C00264579 /* Resources */,
 				BA4DA4D821690F2000264579 /* CopyFiles */,
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
-			);
-			name = SwiftDDPFramework;
-			productName = SwiftDDPFramework;
-			productReference = AD93F6D82196B5A5006BCCC8 /* SwiftDDPFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AD93F7162196B7BA006BCCC8 /* SwiftDDPTouch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD93F71C2196B7BA006BCCC8 /* Build configuration list for PBXNativeTarget "SwiftDDPTouch" */;
-			buildPhases = (
-				AD93F7122196B7BA006BCCC8 /* Headers */,
-				AD93F7132196B7BA006BCCC8 /* Sources */,
-				AD93F7142196B7BA006BCCC8 /* Frameworks */,
-				AD93F7152196B7BA006BCCC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftDDPTouch;
-			productName = SwiftDDPTouch;
-			productReference = AD93F7172196B7BA006BCCC8 /* SwiftDDPTouch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ADF2F0BC2196C60F00A671F2 /* SwiftDDP copy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADF2F0D62196C60F00A671F2 /* Build configuration list for PBXNativeTarget "SwiftDDP copy" */;
-			buildPhases = (
-				ADF2F0BD2196C60F00A671F2 /* Sources */,
-				ADF2F0CB2196C60F00A671F2 /* Frameworks */,
-				ADF2F0CF2196C60F00A671F2 /* Headers */,
-				ADF2F0D02196C60F00A671F2 /* Resources */,
-				ADF2F0D12196C60F00A671F2 /* ShellScript */,
-				ADF2F0D22196C60F00A671F2 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SwiftDDP copy";
-			productName = SwiftDDP;
-			productReference = ADF2F0D92196C60F00A671F2 /* SwiftDDP copy.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ADF2F0DF2196C64D00A671F2 /* TGSSwiftDDP */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADF2F0E52196C64D00A671F2 /* Build configuration list for PBXNativeTarget "TGSSwiftDDP" */;
-			buildPhases = (
-				ADF2F0DB2196C64D00A671F2 /* Headers */,
-				ADF2F0DC2196C64D00A671F2 /* Sources */,
-				ADF2F0DD2196C64D00A671F2 /* Frameworks */,
-				ADF2F0DE2196C64D00A671F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TGSSwiftDDP;
-			productName = TGSSwiftDDP;
-			productReference = ADF2F0E02196C64D00A671F2 /* TGSSwiftDDP.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ADFB02A52196A97F00C05B49 /* Swift DDP Framework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADFB02AD2196A97F00C05B49 /* Build configuration list for PBXNativeTarget "Swift DDP Framework" */;
-			buildPhases = (
-				ADFB02A12196A97F00C05B49 /* Headers */,
-				ADFB02A22196A97F00C05B49 /* Sources */,
-				ADFB02A32196A97F00C05B49 /* Frameworks */,
-				ADFB02A42196A97F00C05B49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Swift DDP Framework";
-			productName = "Swift DDP Framework";
-			productReference = ADFB02A62196A97F00C05B49 /* Swift_DDP_Framework.framework */;
-			productType = "com.apple.product-type.framework";
-=======
 				BA4DA4C821684D3C00264579 /* PBXTargetDependency */,
 			);
 			name = "SwiftDDP-OSXTests";
 			productName = "SwiftDDP-OSXTests";
 			productReference = BA4DA4C121684D3C00264579 /* SwiftDDP-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 		};
 		D02A71DB1BBEFBCA00940C17 /* SwiftDDP */ = {
 			isa = PBXNativeTarget;
@@ -752,32 +500,8 @@
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
-					AD93F6D72196B5A5006BCCC8 = {
-						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = 4B5XWX34W2;
-						ProvisioningStyle = Automatic;
-					};
-					AD93F7162196B7BA006BCCC8 = {
-						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = 4B5XWX34W2;
-						ProvisioningStyle = Automatic;
-					};
-					ADF2F0BC2196C60F00A671F2 = {
-						DevelopmentTeam = 4B5XWX34W2;
-					};
-					ADF2F0DF2196C64D00A671F2 = {
-						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = 4B5XWX34W2;
-						ProvisioningStyle = Automatic;
-					};
-					ADFB02A52196A97F00C05B49 = {
-						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = 4B5XWX34W2;
-						ProvisioningStyle = Automatic;
-					};
 					D02A71DB1BBEFBCA00940C17 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 4B5XWX34W2;
 						LastSwiftMigration = 0810;
 					};
 					D02A72521BBF07AF00940C17 = {
@@ -802,15 +526,7 @@
 				D02A72521BBF07AF00940C17 /* SwiftDDP Tests */,
 				AA0D2AC21D6BEEC700085B33 /* SwiftDDP-tvOS */,
 				AAFDED3B1D6BF984000583AA /* SwiftDDP-OSX */,
-<<<<<<< HEAD
-				ADFB02A52196A97F00C05B49 /* Swift DDP Framework */,
-				AD93F6D72196B5A5006BCCC8 /* SwiftDDPFramework */,
-				AD93F7162196B7BA006BCCC8 /* SwiftDDPTouch */,
-				ADF2F0BC2196C60F00A671F2 /* SwiftDDP copy */,
-				ADF2F0DF2196C64D00A671F2 /* TGSSwiftDDP */,
-=======
 				BA4DA4C021684D3C00264579 /* SwiftDDP-OSXTests */,
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 		};
 /* End PBXProject section */
@@ -830,39 +546,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-		AD93F6D62196B5A5006BCCC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD93F7152196B7BA006BCCC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0D02196C60F00A671F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0DE2196C64D00A671F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADFB02A42196A97F00C05B49 /* Resources */ = {
-=======
 		BA4DA4BF21684D3C00264579 /* Resources */ = {
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -886,21 +570,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-<<<<<<< HEAD
-		ADF2F0D12196C60F00A671F2 /* ShellScript */ = {
-=======
 		BA4DA48D216605D100264579 /* ShellScript */ = {
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-<<<<<<< HEAD
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/CryptoSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftWebSocket.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
-=======
 			inputFileListPaths = (
 			);
 			inputPaths = (
@@ -910,17 +584,12 @@
 				"$(SRCROOT)/Carthage/Build/Mac/ObjcExceptionBridging.framework",
 			);
 			outputFileListPaths = (
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-<<<<<<< HEAD
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-=======
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 		};
 		D02A72261BBF012400940C17 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1002,54 +671,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4DA4C421684D3C00264579 /* SwiftDDP_OSXTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD93F6D42196B5A5006BCCC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD93F7132196B7BA006BCCC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0BD2196C60F00A671F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADF2F0BE2196C60F00A671F2 /* DDPCompletion.swift in Sources */,
-				ADF2F0BF2196C60F00A671F2 /* DDPClient.swift in Sources */,
-				ADF2F0C02196C60F00A671F2 /* EJSON.swift in Sources */,
-				ADF2F0C12196C60F00A671F2 /* MeteorCollection.swift in Sources */,
-				ADF2F0C22196C60F00A671F2 /* DDPMethodResult.swift in Sources */,
-				ADF2F0C32196C60F00A671F2 /* AbstractCollection.swift in Sources */,
-				ADF2F0C42196C60F00A671F2 /* DDPMessage.swift in Sources */,
-				ADF2F0C52196C60F00A671F2 /* DDPUtilities.swift in Sources */,
-				ADF2F0C62196C60F00A671F2 /* MeteorDocument.swift in Sources */,
-				ADF2F0C72196C60F00A671F2 /* DDPExtensions.swift in Sources */,
-				ADF2F0C82196C60F00A671F2 /* DDPExponentialBackoff.swift in Sources */,
-				ADF2F0C92196C60F00A671F2 /* Meteor.swift in Sources */,
-				ADF2F0CA2196C60F00A671F2 /* DDPEvents.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF2F0DC2196C64D00A671F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADFB02A22196A97F00C05B49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1292,395 +913,6 @@
 			};
 			name = Release;
 		};
-		AD93F6DE2196B5A5006BCCC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TGS-Think Global School, Inc.";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SwiftDDPFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakeols.swiftddp.SwiftDDPFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		AD93F6DF2196B5A5006BCCC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TGS-Think Global School, Inc.";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SwiftDDPFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakeols.swiftddp.SwiftDDPFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		AD93F71D2196B7BA006BCCC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SwiftDDPTouch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakeols.swiftddp.SwiftDDPTouch;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AD93F71E2196B7BA006BCCC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SwiftDDPTouch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakeols.swiftddp.SwiftDDPTouch;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		ADF2F0D72196C60F00A671F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "SwiftDDP copy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.houndfish.SwiftDDP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		ADF2F0D82196C60F00A671F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "SwiftDDP copy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.houndfish.SwiftDDP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		ADF2F0E62196C64D00A671F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = TGSSwiftDDP/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakeols.swiftddp.TGSSwiftDDP;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		ADF2F0E72196C64D00A671F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = TGSSwiftDDP/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakeols.swiftddp.TGSSwiftDDP;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		ADFB02AB2196A97F00C05B49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Swift DDP Framework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jakeols.swiftddp.Swift-DDP-Framework";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		ADFB02AC2196A97F00C05B49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Swift DDP Framework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jakeols.swiftddp.Swift-DDP-Framework";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
 		D02A71EE1BBEFBCA00940C17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1724,7 +956,6 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1767,7 +998,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1778,9 +1008,7 @@
 		D02A71F11BBEFBCA00940C17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1795,7 +1023,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.houndfish.SwiftDDP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1803,7 +1031,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B5XWX34W2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1818,7 +1045,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.houndfish.SwiftDDP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1875,55 +1102,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-		AD93F6DD2196B5A5006BCCC8 /* Build configuration list for PBXNativeTarget "SwiftDDPFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD93F6DE2196B5A5006BCCC8 /* Debug */,
-				AD93F6DF2196B5A5006BCCC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD93F71C2196B7BA006BCCC8 /* Build configuration list for PBXNativeTarget "SwiftDDPTouch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD93F71D2196B7BA006BCCC8 /* Debug */,
-				AD93F71E2196B7BA006BCCC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADF2F0D62196C60F00A671F2 /* Build configuration list for PBXNativeTarget "SwiftDDP copy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADF2F0D72196C60F00A671F2 /* Debug */,
-				ADF2F0D82196C60F00A671F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADF2F0E52196C64D00A671F2 /* Build configuration list for PBXNativeTarget "TGSSwiftDDP" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADF2F0E62196C64D00A671F2 /* Debug */,
-				ADF2F0E72196C64D00A671F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADFB02AD2196A97F00C05B49 /* Build configuration list for PBXNativeTarget "Swift DDP Framework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADFB02AB2196A97F00C05B49 /* Debug */,
-				ADFB02AC2196A97F00C05B49 /* Release */,
-=======
 		BA4DA4C921684D3C00264579 /* Build configuration list for PBXNativeTarget "SwiftDDP-OSXTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA4DA4CA21684D3C00264579 /* Debug */,
 				BA4DA4CB21684D3C00264579 /* Release */,
->>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
