@@ -7,52 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FFFCBC71C64352300C147F2 /* DDPExponentialBackoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFCBC61C64352300C147F2 /* DDPExponentialBackoff.swift */; };
 		AA0D2AC61D6BEEC700085B33 /* SwiftDDP-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0D2AC51D6BEEC700085B33 /* SwiftDDP-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA0D2ACB1D6BF0F500085B33 /* DDPExponentialBackoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFCBC61C64352300C147F2 /* DDPExponentialBackoff.swift */; };
-		AA0D2ACC1D6BF0F500085B33 /* DDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720B1BBEFCD200940C17 /* DDPClient.swift */; };
-		AA0D2ACD1D6BF0F500085B33 /* DDPEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720E1BBEFCD300940C17 /* DDPEvents.swift */; };
-		AA0D2ACE1D6BF0F500085B33 /* DDPCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D0DAA1C21ADF9000244D6 /* DDPCompletion.swift */; };
-		AA0D2ACF1D6BF0F500085B33 /* DDPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720C1BBEFCD300940C17 /* DDPMessage.swift */; };
-		AA0D2AD01D6BF0F500085B33 /* DDPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720D1BBEFCD300940C17 /* DDPExtensions.swift */; };
-		AA0D2AD11D6BF0F500085B33 /* DDPMethodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B30821BDA8E2200E1DB72 /* DDPMethodResult.swift */; };
-		AA0D2AD21D6BF0F500085B33 /* DDPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D724611C4E7FBA00EE91DC /* DDPUtilities.swift */; };
-		AA0D2AD31D6BF0F500085B33 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C71B551BC172F40089B6CE /* Meteor.swift */; };
-		AA0D2AD41D6BF0F500085B33 /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0339DD11C00DA6100A17DEB /* AbstractCollection.swift */; };
-		AA0D2AD51D6BF0F500085B33 /* MeteorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0339DD31C00DAB000A17DEB /* MeteorCollection.swift */; };
-		AA0D2AD61D6BF0F500085B33 /* MeteorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D0DB81C21D489000244D6 /* MeteorDocument.swift */; };
-		AA0D2ADA1D6BF0F500085B33 /* EJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F6C99C1BFFA04600A6CB70 /* EJSON.swift */; };
 		AA0D2AE01D6BF18700085B33 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0D2ADB1D6BF18700085B33 /* XCGLogger.framework */; };
 		AA0D2AE11D6BF18700085B33 /* SwiftWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0D2ADC1D6BF18700085B33 /* SwiftWebSocket.framework */; };
 		AA0D2AE41D6BF18700085B33 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0D2ADF1D6BF18700085B33 /* CryptoSwift.framework */; };
 		AAFDED3F1D6BF984000583AA /* SwiftDDP-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFDED3E1D6BF984000583AA /* SwiftDDP-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD93F6DC2196B5A5006BCCC8 /* SwiftDDPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AD93F6DA2196B5A5006BCCC8 /* SwiftDDPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD93F71B2196B7BA006BCCC8 /* SwiftDDPTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = AD93F7192196B7BA006BCCC8 /* SwiftDDPTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADF2F0BE2196C60F00A671F2 /* DDPCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D0DAA1C21ADF9000244D6 /* DDPCompletion.swift */; };
-		ADF2F0BF2196C60F00A671F2 /* DDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720B1BBEFCD200940C17 /* DDPClient.swift */; };
-		ADF2F0C02196C60F00A671F2 /* EJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F6C99C1BFFA04600A6CB70 /* EJSON.swift */; };
-		ADF2F0C12196C60F00A671F2 /* MeteorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0339DD31C00DAB000A17DEB /* MeteorCollection.swift */; };
-		ADF2F0C22196C60F00A671F2 /* DDPMethodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B30821BDA8E2200E1DB72 /* DDPMethodResult.swift */; };
-		ADF2F0C32196C60F00A671F2 /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0339DD11C00DA6100A17DEB /* AbstractCollection.swift */; };
-		ADF2F0C42196C60F00A671F2 /* DDPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720C1BBEFCD300940C17 /* DDPMessage.swift */; };
-		ADF2F0C52196C60F00A671F2 /* DDPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D724611C4E7FBA00EE91DC /* DDPUtilities.swift */; };
-		ADF2F0C62196C60F00A671F2 /* MeteorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D0DB81C21D489000244D6 /* MeteorDocument.swift */; };
-		ADF2F0C72196C60F00A671F2 /* DDPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720D1BBEFCD300940C17 /* DDPExtensions.swift */; };
-		ADF2F0C82196C60F00A671F2 /* DDPExponentialBackoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFCBC61C64352300C147F2 /* DDPExponentialBackoff.swift */; };
-		ADF2F0C92196C60F00A671F2 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C71B551BC172F40089B6CE /* Meteor.swift */; };
-		ADF2F0CA2196C60F00A671F2 /* DDPEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720E1BBEFCD300940C17 /* DDPEvents.swift */; };
-		ADF2F0CC2196C60F00A671F2 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A72271BBF01E900940C17 /* CryptoSwift.framework */; };
-		ADF2F0CD2196C60F00A671F2 /* SwiftWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A72291BBF01ED00940C17 /* SwiftWebSocket.framework */; };
-		ADF2F0CE2196C60F00A671F2 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A722B1BBF01EF00940C17 /* XCGLogger.framework */; };
-		ADF2F0D32196C60F00A671F2 /* CryptoSwift.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = D02A722E1BBF02AA00940C17 /* CryptoSwift.framework.dSYM */; };
-		ADF2F0D42196C60F00A671F2 /* SwiftWebSocket.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = D02A72301BBF02B400940C17 /* SwiftWebSocket.framework.dSYM */; };
-		ADF2F0D52196C60F00A671F2 /* XCGLogger.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = D02A72321BBF02B900940C17 /* XCGLogger.framework.dSYM */; };
-		ADF2F0E42196C64D00A671F2 /* TGSSwiftDDP.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF2F0E22196C64D00A671F2 /* TGSSwiftDDP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADFB02AA2196A97F00C05B49 /* Swift_DDP_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFB02A82196A97F00C05B49 /* Swift_DDP_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D02A72101BBEFCD300940C17 /* DDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720B1BBEFCD200940C17 /* DDPClient.swift */; };
-		D02A72111BBEFCD300940C17 /* DDPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720C1BBEFCD300940C17 /* DDPMessage.swift */; };
-		D02A72121BBEFCD300940C17 /* DDPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720D1BBEFCD300940C17 /* DDPExtensions.swift */; };
-		D02A72131BBEFCD300940C17 /* DDPEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A720E1BBEFCD300940C17 /* DDPEvents.swift */; };
+		BA4DA487216605B600264579 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4DA481216605B500264579 /* CryptoSwift.framework */; };
+		BA4DA489216605B600264579 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4DA483216605B500264579 /* XCGLogger.framework */; };
+		BA4DA48A216605B600264579 /* SwiftWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4DA484216605B600264579 /* SwiftWebSocket.framework */; };
+		BA4DA49521671FEC00264579 /* MeteorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DA49421671FEC00264579 /* MeteorExtension.swift */; };
+		BA4DA496216721F600264579 /* MeteorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DA49421671FEC00264579 /* MeteorExtension.swift */; };
+		BA4DA4C421684D3C00264579 /* SwiftDDP_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DA4C321684D3C00264579 /* SwiftDDP_OSXTests.swift */; };
+		BA4DA4C621684D3C00264579 /* SwiftDDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFDED3C1D6BF984000583AA /* SwiftDDP.framework */; };
+		BA4DA4D621690BC600264579 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4DA485216605B600264579 /* Nimble.framework */; };
+		BA4DA4D721690BC900264579 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4DA482216605B500264579 /* Quick.framework */; };
+		BA4DA4D921690F4300264579 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA4DA485216605B600264579 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA4DA4DA21690F4600264579 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA4DA482216605B500264579 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BAA403C32169AE0E00F572F3 /* EJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B62169AE0E00F572F3 /* EJSON.swift */; };
+		BAA403C42169AE0E00F572F3 /* EJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B62169AE0E00F572F3 /* EJSON.swift */; };
+		BAA403C52169AE0E00F572F3 /* EJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B62169AE0E00F572F3 /* EJSON.swift */; };
+		BAA403C62169AE0E00F572F3 /* DDPExponentialBackoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B72169AE0E00F572F3 /* DDPExponentialBackoff.swift */; };
+		BAA403C72169AE0E00F572F3 /* DDPExponentialBackoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B72169AE0E00F572F3 /* DDPExponentialBackoff.swift */; };
+		BAA403C82169AE0E00F572F3 /* DDPExponentialBackoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B72169AE0E00F572F3 /* DDPExponentialBackoff.swift */; };
+		BAA403C92169AE0E00F572F3 /* MeteorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B82169AE0E00F572F3 /* MeteorDocument.swift */; };
+		BAA403CA2169AE0E00F572F3 /* MeteorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B82169AE0E00F572F3 /* MeteorDocument.swift */; };
+		BAA403CB2169AE0E00F572F3 /* MeteorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B82169AE0E00F572F3 /* MeteorDocument.swift */; };
+		BAA403CC2169AE0E00F572F3 /* DDPCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B92169AE0E00F572F3 /* DDPCompletion.swift */; };
+		BAA403CD2169AE0E00F572F3 /* DDPCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B92169AE0E00F572F3 /* DDPCompletion.swift */; };
+		BAA403CE2169AE0E00F572F3 /* DDPCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403B92169AE0E00F572F3 /* DDPCompletion.swift */; };
+		BAA403CF2169AE0E00F572F3 /* DDPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BA2169AE0E00F572F3 /* DDPMessage.swift */; };
+		BAA403D02169AE0E00F572F3 /* DDPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BA2169AE0E00F572F3 /* DDPMessage.swift */; };
+		BAA403D12169AE0E00F572F3 /* DDPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BA2169AE0E00F572F3 /* DDPMessage.swift */; };
+		BAA403D22169AE0E00F572F3 /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BB2169AE0E00F572F3 /* AbstractCollection.swift */; };
+		BAA403D32169AE0E00F572F3 /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BB2169AE0E00F572F3 /* AbstractCollection.swift */; };
+		BAA403D42169AE0E00F572F3 /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BB2169AE0E00F572F3 /* AbstractCollection.swift */; };
+		BAA403D52169AE0E00F572F3 /* DDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BC2169AE0E00F572F3 /* DDPClient.swift */; };
+		BAA403D62169AE0E00F572F3 /* DDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BC2169AE0E00F572F3 /* DDPClient.swift */; };
+		BAA403D72169AE0E00F572F3 /* DDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BC2169AE0E00F572F3 /* DDPClient.swift */; };
+		BAA403D82169AE0E00F572F3 /* DDPEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BD2169AE0E00F572F3 /* DDPEvents.swift */; };
+		BAA403D92169AE0E00F572F3 /* DDPEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BD2169AE0E00F572F3 /* DDPEvents.swift */; };
+		BAA403DA2169AE0E00F572F3 /* DDPEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BD2169AE0E00F572F3 /* DDPEvents.swift */; };
+		BAA403DB2169AE0E00F572F3 /* DDPMethodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BE2169AE0E00F572F3 /* DDPMethodResult.swift */; };
+		BAA403DC2169AE0E00F572F3 /* DDPMethodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BE2169AE0E00F572F3 /* DDPMethodResult.swift */; };
+		BAA403DD2169AE0E00F572F3 /* DDPMethodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BE2169AE0E00F572F3 /* DDPMethodResult.swift */; };
+		BAA403DE2169AE0E00F572F3 /* DDPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BF2169AE0E00F572F3 /* DDPUtilities.swift */; };
+		BAA403DF2169AE0E00F572F3 /* DDPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BF2169AE0E00F572F3 /* DDPUtilities.swift */; };
+		BAA403E02169AE0E00F572F3 /* DDPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403BF2169AE0E00F572F3 /* DDPUtilities.swift */; };
+		BAA403E12169AE0E00F572F3 /* DDPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C02169AE0E00F572F3 /* DDPExtensions.swift */; };
+		BAA403E22169AE0E00F572F3 /* DDPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C02169AE0E00F572F3 /* DDPExtensions.swift */; };
+		BAA403E32169AE0E00F572F3 /* DDPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C02169AE0E00F572F3 /* DDPExtensions.swift */; };
+		BAA403E42169AE0E00F572F3 /* MeteorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C12169AE0E00F572F3 /* MeteorCollection.swift */; };
+		BAA403E52169AE0E00F572F3 /* MeteorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C12169AE0E00F572F3 /* MeteorCollection.swift */; };
+		BAA403E62169AE0E00F572F3 /* MeteorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C12169AE0E00F572F3 /* MeteorCollection.swift */; };
+		BAA403E72169AE0E00F572F3 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C22169AE0E00F572F3 /* Meteor.swift */; };
+		BAA403E82169AE0E00F572F3 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C22169AE0E00F572F3 /* Meteor.swift */; };
+		BAA403E92169AE0E00F572F3 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA403C22169AE0E00F572F3 /* Meteor.swift */; };
 		D02A72281BBF01E900940C17 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A72271BBF01E900940C17 /* CryptoSwift.framework */; };
 		D02A722A1BBF01ED00940C17 /* SwiftWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A72291BBF01ED00940C17 /* SwiftWebSocket.framework */; };
 		D02A722C1BBF01EF00940C17 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A722B1BBF01EF00940C17 /* XCGLogger.framework */; };
@@ -63,19 +72,18 @@
 		D02A72581BBF07AF00940C17 /* SwiftDDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A71DC1BBEFBCA00940C17 /* SwiftDDP.framework */; };
 		D02A725E1BBF07F700940C17 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A72351BBF033600940C17 /* Nimble.framework */; };
 		D02A725F1BBF07F700940C17 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A72361BBF033600940C17 /* Quick.framework */; };
-		D02B30831BDA8E2200E1DB72 /* DDPMethodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B30821BDA8E2200E1DB72 /* DDPMethodResult.swift */; };
-		D0339DD21C00DA6100A17DEB /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0339DD11C00DA6100A17DEB /* AbstractCollection.swift */; };
-		D0339DD41C00DAB000A17DEB /* MeteorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0339DD31C00DAB000A17DEB /* MeteorCollection.swift */; };
-		D04D0DAB1C21ADF9000244D6 /* DDPCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D0DAA1C21ADF9000244D6 /* DDPCompletion.swift */; };
-		D04D0DB91C21D489000244D6 /* MeteorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D0DB81C21D489000244D6 /* MeteorDocument.swift */; };
-		D0C71B561BC172F40089B6CE /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C71B551BC172F40089B6CE /* Meteor.swift */; };
 		D0C71B581BC173030089B6CE /* SwiftMeteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C71B571BC173030089B6CE /* SwiftMeteor.swift */; };
 		D0C71B5B1BC174280089B6CE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C71B5A1BC174280089B6CE /* Data.swift */; };
-		D0D724661C4E7FBA00EE91DC /* DDPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D724611C4E7FBA00EE91DC /* DDPUtilities.swift */; };
-		D0F6C99D1BFFA04600A6CB70 /* EJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F6C99C1BFFA04600A6CB70 /* EJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BA4DA4C721684D3C00264579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02A71D31BBEFBCA00940C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFDED3B1D6BF984000583AA;
+			remoteInfo = "SwiftDDP-OSX";
+		};
 		D02A72591BBF07AF00940C17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D02A71D31BBEFBCA00940C17 /* Project object */;
@@ -86,6 +94,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+<<<<<<< HEAD
 		ADF2F0D22196C60F00A671F2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +104,16 @@
 				ADF2F0D32196C60F00A671F2 /* CryptoSwift.framework.dSYM in CopyFiles */,
 				ADF2F0D42196C60F00A671F2 /* SwiftWebSocket.framework.dSYM in CopyFiles */,
 				ADF2F0D52196C60F00A671F2 /* XCGLogger.framework.dSYM in CopyFiles */,
+=======
+		BA4DA4D821690F2000264579 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA4DA4D921690F4300264579 /* Nimble.framework in CopyFiles */,
+				BA4DA4DA21690F4600264579 /* Quick.framework in CopyFiles */,
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +132,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6FFFCBC61C64352300C147F2 /* DDPExponentialBackoff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPExponentialBackoff.swift; sourceTree = "<group>"; };
 		AA0D2AC31D6BEEC700085B33 /* SwiftDDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0D2AC51D6BEEC700085B33 /* SwiftDDP-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDDP-tvOS.h"; sourceTree = "<group>"; };
 		AA0D2AC71D6BEEC700085B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,6 +143,7 @@
 		AAFDED3C1D6BF984000583AA /* SwiftDDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFDED3E1D6BF984000583AA /* SwiftDDP-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDDP-OSX.h"; sourceTree = "<group>"; };
 		AAFDED401D6BF984000583AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		AD93F6D82196B5A5006BCCC8 /* SwiftDDPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD93F6DA2196B5A5006BCCC8 /* SwiftDDPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDDPFramework.h; sourceTree = "<group>"; };
 		AD93F6DB2196B5A5006BCCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,12 +158,34 @@
 		ADFB02A62196A97F00C05B49 /* Swift_DDP_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swift_DDP_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFB02A82196A97F00C05B49 /* Swift_DDP_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_DDP_Framework.h; sourceTree = "<group>"; };
 		ADFB02A92196A97F00C05B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+=======
+		BA4DA481216605B500264579 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = "<group>"; };
+		BA4DA482216605B500264579 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		BA4DA483216605B500264579 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/Mac/XCGLogger.framework; sourceTree = "<group>"; };
+		BA4DA484216605B600264579 /* SwiftWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftWebSocket.framework; path = Carthage/Build/Mac/SwiftWebSocket.framework; sourceTree = "<group>"; };
+		BA4DA485216605B600264579 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		BA4DA486216605B600264579 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjcExceptionBridging.framework; path = Carthage/Build/Mac/ObjcExceptionBridging.framework; sourceTree = "<group>"; };
+		BA4DA49421671FEC00264579 /* MeteorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorExtension.swift; sourceTree = "<group>"; };
+		BA4DA4BB2168474200264579 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA4DA4C121684D3C00264579 /* SwiftDDP-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftDDP-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4DA4C321684D3C00264579 /* SwiftDDP_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDDP_OSXTests.swift; sourceTree = "<group>"; };
+		BA4DA4C521684D3C00264579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA403B62169AE0E00F572F3 /* EJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EJSON.swift; sourceTree = "<group>"; };
+		BAA403B72169AE0E00F572F3 /* DDPExponentialBackoff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPExponentialBackoff.swift; sourceTree = "<group>"; };
+		BAA403B82169AE0E00F572F3 /* MeteorDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorDocument.swift; sourceTree = "<group>"; };
+		BAA403B92169AE0E00F572F3 /* DDPCompletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPCompletion.swift; sourceTree = "<group>"; };
+		BAA403BA2169AE0E00F572F3 /* DDPMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPMessage.swift; sourceTree = "<group>"; };
+		BAA403BB2169AE0E00F572F3 /* AbstractCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractCollection.swift; sourceTree = "<group>"; };
+		BAA403BC2169AE0E00F572F3 /* DDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPClient.swift; sourceTree = "<group>"; };
+		BAA403BD2169AE0E00F572F3 /* DDPEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPEvents.swift; sourceTree = "<group>"; };
+		BAA403BE2169AE0E00F572F3 /* DDPMethodResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPMethodResult.swift; sourceTree = "<group>"; };
+		BAA403BF2169AE0E00F572F3 /* DDPUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPUtilities.swift; sourceTree = "<group>"; };
+		BAA403C02169AE0E00F572F3 /* DDPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPExtensions.swift; sourceTree = "<group>"; };
+		BAA403C12169AE0E00F572F3 /* MeteorCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCollection.swift; sourceTree = "<group>"; };
+		BAA403C22169AE0E00F572F3 /* Meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 		D02A71DC1BBEFBCA00940C17 /* SwiftDDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02A71E11BBEFBCA00940C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D02A720B1BBEFCD200940C17 /* DDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPClient.swift; sourceTree = "<group>"; };
-		D02A720C1BBEFCD300940C17 /* DDPMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPMessage.swift; sourceTree = "<group>"; };
-		D02A720D1BBEFCD300940C17 /* DDPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPExtensions.swift; sourceTree = "<group>"; };
-		D02A720E1BBEFCD300940C17 /* DDPEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPEvents.swift; sourceTree = "<group>"; };
 		D02A72271BBF01E900940C17 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
 		D02A72291BBF01ED00940C17 /* SwiftWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftWebSocket.framework; path = Carthage/Build/iOS/SwiftWebSocket.framework; sourceTree = "<group>"; };
 		D02A722B1BBF01EF00940C17 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
@@ -160,20 +201,8 @@
 		D02A72AE1BBF383700940C17 /* SwiftDDP.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftDDP.podspec; sourceTree = "<group>"; };
 		D02A72AF1BBF383700940C17 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D02A72B11BBF383700940C17 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		D02B30821BDA8E2200E1DB72 /* DDPMethodResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPMethodResult.swift; sourceTree = "<group>"; };
-		D0339DD11C00DA6100A17DEB /* AbstractCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractCollection.swift; sourceTree = "<group>"; };
-		D0339DD31C00DAB000A17DEB /* MeteorCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCollection.swift; sourceTree = "<group>"; };
-		D04D0DAA1C21ADF9000244D6 /* DDPCompletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPCompletion.swift; sourceTree = "<group>"; };
-		D04D0DB81C21D489000244D6 /* MeteorDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorDocument.swift; sourceTree = "<group>"; };
-		D0C71B551BC172F40089B6CE /* Meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
 		D0C71B571BC173030089B6CE /* SwiftMeteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMeteor.swift; sourceTree = "<group>"; };
 		D0C71B5A1BC174280089B6CE /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		D0D724611C4E7FBA00EE91DC /* DDPUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPUtilities.swift; sourceTree = "<group>"; };
-		D0E9DFDD1C359535005D92FA /* SwiftDDP OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDDP OSX.h"; sourceTree = "<group>"; };
-		D0E9DFDF1C359535005D92FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0E9DFE91C359535005D92FA /* SwiftDDP_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDDP_OSXTests.swift; sourceTree = "<group>"; };
-		D0E9DFEB1C359535005D92FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0F6C99C1BFFA04600A6CB70 /* EJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +220,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4DA487216605B600264579 /* CryptoSwift.framework in Frameworks */,
+				BA4DA489216605B600264579 /* XCGLogger.framework in Frameworks */,
+				BA4DA48A216605B600264579 /* SwiftWebSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4DA4BE21684D3C00264579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4DA4C621684D3C00264579 /* SwiftDDP.framework in Frameworks */,
+				BA4DA4D621690BC600264579 /* Nimble.framework in Frameworks */,
+				BA4DA4D721690BC900264579 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +315,7 @@
 			path = "SwiftDDP-OSX";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		AD93F6D92196B5A5006BCCC8 /* SwiftDDPFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,21 +350,53 @@
 				ADFB02A92196A97F00C05B49 /* Info.plist */,
 			);
 			path = "Swift DDP Framework";
+=======
+		BA4DA4C221684D3C00264579 /* SwiftDDP-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4DA4C321684D3C00264579 /* SwiftDDP_OSXTests.swift */,
+				BA4DA4C521684D3C00264579 /* Info.plist */,
+			);
+			path = "SwiftDDP-OSXTests";
+			sourceTree = "<group>";
+		};
+		BAA403B52169AE0E00F572F3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BAA403B62169AE0E00F572F3 /* EJSON.swift */,
+				BAA403B72169AE0E00F572F3 /* DDPExponentialBackoff.swift */,
+				BAA403B82169AE0E00F572F3 /* MeteorDocument.swift */,
+				BAA403B92169AE0E00F572F3 /* DDPCompletion.swift */,
+				BAA403BA2169AE0E00F572F3 /* DDPMessage.swift */,
+				BAA403BB2169AE0E00F572F3 /* AbstractCollection.swift */,
+				BAA403BC2169AE0E00F572F3 /* DDPClient.swift */,
+				BAA403BD2169AE0E00F572F3 /* DDPEvents.swift */,
+				BAA403BE2169AE0E00F572F3 /* DDPMethodResult.swift */,
+				BAA403BF2169AE0E00F572F3 /* DDPUtilities.swift */,
+				BAA403C02169AE0E00F572F3 /* DDPExtensions.swift */,
+				BAA403C12169AE0E00F572F3 /* MeteorCollection.swift */,
+				BAA403C22169AE0E00F572F3 /* Meteor.swift */,
+			);
+			path = Sources;
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			sourceTree = "<group>";
 		};
 		D02A71D21BBEFBCA00940C17 = {
 			isa = PBXGroup;
 			children = (
+				BAA403B52169AE0E00F572F3 /* Sources */,
 				D02A71DE1BBEFBCA00940C17 /* SwiftDDP */,
 				D02A72541BBF07AF00940C17 /* Tests */,
-				D0E9DFDC1C359535005D92FA /* SwiftDDP OSX */,
-				D0E9DFE81C359535005D92FA /* SwiftDDP OSXTests */,
 				AA0D2AC41D6BEEC700085B33 /* SwiftDDP-tvOS */,
 				AAFDED3D1D6BF984000583AA /* SwiftDDP-OSX */,
+<<<<<<< HEAD
 				ADFB02A72196A97F00C05B49 /* Swift DDP Framework */,
 				AD93F6D92196B5A5006BCCC8 /* SwiftDDPFramework */,
 				AD93F7182196B7BA006BCCC8 /* SwiftDDPTouch */,
 				ADF2F0E12196C64D00A671F2 /* TGSSwiftDDP */,
+=======
+				BA4DA4C221684D3C00264579 /* SwiftDDP-OSXTests */,
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 				D02A72341BBF02C200940C17 /* Frameworks */,
 				D02A72AE1BBF383700940C17 /* SwiftDDP.podspec */,
 				D02A72AF1BBF383700940C17 /* LICENSE */,
@@ -339,11 +414,15 @@
 				D02A72531BBF07AF00940C17 /* SwiftDDP Tests.xctest */,
 				AA0D2AC31D6BEEC700085B33 /* SwiftDDP.framework */,
 				AAFDED3C1D6BF984000583AA /* SwiftDDP.framework */,
+<<<<<<< HEAD
 				ADFB02A62196A97F00C05B49 /* Swift_DDP_Framework.framework */,
 				AD93F6D82196B5A5006BCCC8 /* SwiftDDPFramework.framework */,
 				AD93F7172196B7BA006BCCC8 /* SwiftDDPTouch.framework */,
 				ADF2F0D92196C60F00A671F2 /* SwiftDDP copy.framework */,
 				ADF2F0E02196C64D00A671F2 /* TGSSwiftDDP.framework */,
+=======
+				BA4DA4C121684D3C00264579 /* SwiftDDP-OSXTests.xctest */,
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -351,19 +430,7 @@
 		D02A71DE1BBEFBCA00940C17 /* SwiftDDP */ = {
 			isa = PBXGroup;
 			children = (
-				6FFFCBC61C64352300C147F2 /* DDPExponentialBackoff.swift */,
-				D02A720B1BBEFCD200940C17 /* DDPClient.swift */,
-				D02A720E1BBEFCD300940C17 /* DDPEvents.swift */,
-				D04D0DAA1C21ADF9000244D6 /* DDPCompletion.swift */,
-				D02A720C1BBEFCD300940C17 /* DDPMessage.swift */,
-				D02A720D1BBEFCD300940C17 /* DDPExtensions.swift */,
-				D02B30821BDA8E2200E1DB72 /* DDPMethodResult.swift */,
-				D0D724611C4E7FBA00EE91DC /* DDPUtilities.swift */,
-				D0C71B551BC172F40089B6CE /* Meteor.swift */,
-				D0339DD11C00DA6100A17DEB /* AbstractCollection.swift */,
-				D0339DD31C00DAB000A17DEB /* MeteorCollection.swift */,
-				D04D0DB81C21D489000244D6 /* MeteorDocument.swift */,
-				D0F6C99C1BFFA04600A6CB70 /* EJSON.swift */,
+				BA4DA49421671FEC00264579 /* MeteorExtension.swift */,
 				D02A71E11BBEFBCA00940C17 /* Info.plist */,
 			);
 			path = SwiftDDP;
@@ -372,11 +439,18 @@
 		D02A72341BBF02C200940C17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA4DA4BB2168474200264579 /* AppKit.framework */,
+				BA4DA484216605B600264579 /* SwiftWebSocket.framework */,
 				AA0D2ADB1D6BF18700085B33 /* XCGLogger.framework */,
 				AA0D2ADC1D6BF18700085B33 /* SwiftWebSocket.framework */,
+				BA4DA485216605B600264579 /* Nimble.framework */,
+				BA4DA486216605B600264579 /* ObjcExceptionBridging.framework */,
 				AA0D2ADD1D6BF18700085B33 /* Quick.framework */,
 				AA0D2ADE1D6BF18700085B33 /* Nimble.framework */,
 				AA0D2ADF1D6BF18700085B33 /* CryptoSwift.framework */,
+				BA4DA481216605B500264579 /* CryptoSwift.framework */,
+				BA4DA482216605B500264579 /* Quick.framework */,
+				BA4DA483216605B500264579 /* XCGLogger.framework */,
 				D02A72321BBF02B900940C17 /* XCGLogger.framework.dSYM */,
 				D02A72301BBF02B400940C17 /* SwiftWebSocket.framework.dSYM */,
 				D02A722E1BBF02AA00940C17 /* CryptoSwift.framework.dSYM */,
@@ -399,24 +473,6 @@
 			);
 			name = Tests;
 			path = SwiftDDPTests;
-			sourceTree = "<group>";
-		};
-		D0E9DFDC1C359535005D92FA /* SwiftDDP OSX */ = {
-			isa = PBXGroup;
-			children = (
-				D0E9DFDD1C359535005D92FA /* SwiftDDP OSX.h */,
-				D0E9DFDF1C359535005D92FA /* Info.plist */,
-			);
-			path = "SwiftDDP OSX";
-			sourceTree = "<group>";
-		};
-		D0E9DFE81C359535005D92FA /* SwiftDDP OSXTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0E9DFE91C359535005D92FA /* SwiftDDP_OSXTests.swift */,
-				D0E9DFEB1C359535005D92FA /* Info.plist */,
-			);
-			path = "SwiftDDP OSXTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +569,7 @@
 				AAFDED381D6BF984000583AA /* Frameworks */,
 				AAFDED391D6BF984000583AA /* Headers */,
 				AAFDED3A1D6BF984000583AA /* Resources */,
+				BA4DA48D216605D100264579 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -523,6 +580,7 @@
 			productReference = AAFDED3C1D6BF984000583AA /* SwiftDDP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+<<<<<<< HEAD
 		AD93F6D72196B5A5006BCCC8 /* SwiftDDPFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD93F6DD2196B5A5006BCCC8 /* Build configuration list for PBXNativeTarget "SwiftDDPFramework" */;
@@ -531,10 +589,21 @@
 				AD93F6D42196B5A5006BCCC8 /* Sources */,
 				AD93F6D52196B5A5006BCCC8 /* Frameworks */,
 				AD93F6D62196B5A5006BCCC8 /* Resources */,
+=======
+		BA4DA4C021684D3C00264579 /* SwiftDDP-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4DA4C921684D3C00264579 /* Build configuration list for PBXNativeTarget "SwiftDDP-OSXTests" */;
+			buildPhases = (
+				BA4DA4BD21684D3C00264579 /* Sources */,
+				BA4DA4BE21684D3C00264579 /* Frameworks */,
+				BA4DA4BF21684D3C00264579 /* Resources */,
+				BA4DA4D821690F2000264579 /* CopyFiles */,
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 			);
 			name = SwiftDDPFramework;
 			productName = SwiftDDPFramework;
@@ -614,6 +683,14 @@
 			productName = "Swift DDP Framework";
 			productReference = ADFB02A62196A97F00C05B49 /* Swift_DDP_Framework.framework */;
 			productType = "com.apple.product-type.framework";
+=======
+				BA4DA4C821684D3C00264579 /* PBXTargetDependency */,
+			);
+			name = "SwiftDDP-OSXTests";
+			productName = "SwiftDDP-OSXTests";
+			productReference = BA4DA4C121684D3C00264579 /* SwiftDDP-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 		};
 		D02A71DB1BBEFBCA00940C17 /* SwiftDDP */ = {
 			isa = PBXNativeTarget;
@@ -660,7 +737,7 @@
 		D02A71D31BBEFBCA00940C17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Peter Siegesmund";
 				TargetAttributes = {
@@ -669,6 +746,11 @@
 					};
 					AAFDED3B1D6BF984000583AA = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1000;
+					};
+					BA4DA4C021684D3C00264579 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 					};
 					AD93F6D72196B5A5006BCCC8 = {
 						CreatedOnToolsVersion = 10.1;
@@ -720,11 +802,15 @@
 				D02A72521BBF07AF00940C17 /* SwiftDDP Tests */,
 				AA0D2AC21D6BEEC700085B33 /* SwiftDDP-tvOS */,
 				AAFDED3B1D6BF984000583AA /* SwiftDDP-OSX */,
+<<<<<<< HEAD
 				ADFB02A52196A97F00C05B49 /* Swift DDP Framework */,
 				AD93F6D72196B5A5006BCCC8 /* SwiftDDPFramework */,
 				AD93F7162196B7BA006BCCC8 /* SwiftDDPTouch */,
 				ADF2F0BC2196C60F00A671F2 /* SwiftDDP copy */,
 				ADF2F0DF2196C64D00A671F2 /* TGSSwiftDDP */,
+=======
+				BA4DA4C021684D3C00264579 /* SwiftDDP-OSXTests */,
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 		};
 /* End PBXProject section */
@@ -744,6 +830,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		AD93F6D62196B5A5006BCCC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -773,6 +860,9 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ADFB02A42196A97F00C05B49 /* Resources */ = {
+=======
+		BA4DA4BF21684D3C00264579 /* Resources */ = {
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -796,21 +886,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+<<<<<<< HEAD
 		ADF2F0D12196C60F00A671F2 /* ShellScript */ = {
+=======
+		BA4DA48D216605D100264579 /* ShellScript */ = {
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+<<<<<<< HEAD
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/CryptoSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftWebSocket.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
+=======
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/CryptoSwift.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/SwiftWebSocket.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/XCGLogger.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/ObjcExceptionBridging.framework",
+			);
+			outputFileListPaths = (
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+=======
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 		};
 		D02A72261BBF012400940C17 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -826,7 +936,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		D02A72601BBF086A00940C17 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -850,19 +960,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA0D2ACB1D6BF0F500085B33 /* DDPExponentialBackoff.swift in Sources */,
-				AA0D2ACC1D6BF0F500085B33 /* DDPClient.swift in Sources */,
-				AA0D2ACD1D6BF0F500085B33 /* DDPEvents.swift in Sources */,
-				AA0D2ACE1D6BF0F500085B33 /* DDPCompletion.swift in Sources */,
-				AA0D2ACF1D6BF0F500085B33 /* DDPMessage.swift in Sources */,
-				AA0D2AD01D6BF0F500085B33 /* DDPExtensions.swift in Sources */,
-				AA0D2AD11D6BF0F500085B33 /* DDPMethodResult.swift in Sources */,
-				AA0D2AD21D6BF0F500085B33 /* DDPUtilities.swift in Sources */,
-				AA0D2AD31D6BF0F500085B33 /* Meteor.swift in Sources */,
-				AA0D2AD41D6BF0F500085B33 /* AbstractCollection.swift in Sources */,
-				AA0D2AD51D6BF0F500085B33 /* MeteorCollection.swift in Sources */,
-				AA0D2AD61D6BF0F500085B33 /* MeteorDocument.swift in Sources */,
-				AA0D2ADA1D6BF0F500085B33 /* EJSON.swift in Sources */,
+				BAA403DC2169AE0E00F572F3 /* DDPMethodResult.swift in Sources */,
+				BAA403E82169AE0E00F572F3 /* Meteor.swift in Sources */,
+				BAA403CD2169AE0E00F572F3 /* DDPCompletion.swift in Sources */,
+				BAA403E22169AE0E00F572F3 /* DDPExtensions.swift in Sources */,
+				BAA403D62169AE0E00F572F3 /* DDPClient.swift in Sources */,
+				BA4DA496216721F600264579 /* MeteorExtension.swift in Sources */,
+				BAA403D02169AE0E00F572F3 /* DDPMessage.swift in Sources */,
+				BAA403C72169AE0E00F572F3 /* DDPExponentialBackoff.swift in Sources */,
+				BAA403CA2169AE0E00F572F3 /* MeteorDocument.swift in Sources */,
+				BAA403E52169AE0E00F572F3 /* MeteorCollection.swift in Sources */,
+				BAA403D32169AE0E00F572F3 /* AbstractCollection.swift in Sources */,
+				BAA403DF2169AE0E00F572F3 /* DDPUtilities.swift in Sources */,
+				BAA403C42169AE0E00F572F3 /* EJSON.swift in Sources */,
+				BAA403D92169AE0E00F572F3 /* DDPEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,6 +981,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA403D72169AE0E00F572F3 /* DDPClient.swift in Sources */,
+				BAA403CE2169AE0E00F572F3 /* DDPCompletion.swift in Sources */,
+				BAA403CB2169AE0E00F572F3 /* MeteorDocument.swift in Sources */,
+				BAA403E32169AE0E00F572F3 /* DDPExtensions.swift in Sources */,
+				BAA403C52169AE0E00F572F3 /* EJSON.swift in Sources */,
+				BAA403D42169AE0E00F572F3 /* AbstractCollection.swift in Sources */,
+				BAA403E02169AE0E00F572F3 /* DDPUtilities.swift in Sources */,
+				BAA403D12169AE0E00F572F3 /* DDPMessage.swift in Sources */,
+				BAA403C82169AE0E00F572F3 /* DDPExponentialBackoff.swift in Sources */,
+				BAA403E62169AE0E00F572F3 /* MeteorCollection.swift in Sources */,
+				BAA403DA2169AE0E00F572F3 /* DDPEvents.swift in Sources */,
+				BAA403E92169AE0E00F572F3 /* Meteor.swift in Sources */,
+				BAA403DD2169AE0E00F572F3 /* DDPMethodResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4DA4BD21684D3C00264579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4DA4C421684D3C00264579 /* SwiftDDP_OSXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,19 +1057,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04D0DAB1C21ADF9000244D6 /* DDPCompletion.swift in Sources */,
-				D02A72101BBEFCD300940C17 /* DDPClient.swift in Sources */,
-				D0F6C99D1BFFA04600A6CB70 /* EJSON.swift in Sources */,
-				D0339DD41C00DAB000A17DEB /* MeteorCollection.swift in Sources */,
-				D02B30831BDA8E2200E1DB72 /* DDPMethodResult.swift in Sources */,
-				D0339DD21C00DA6100A17DEB /* AbstractCollection.swift in Sources */,
-				D02A72111BBEFCD300940C17 /* DDPMessage.swift in Sources */,
-				D0D724661C4E7FBA00EE91DC /* DDPUtilities.swift in Sources */,
-				D04D0DB91C21D489000244D6 /* MeteorDocument.swift in Sources */,
-				D02A72121BBEFCD300940C17 /* DDPExtensions.swift in Sources */,
-				6FFFCBC71C64352300C147F2 /* DDPExponentialBackoff.swift in Sources */,
-				D0C71B561BC172F40089B6CE /* Meteor.swift in Sources */,
-				D02A72131BBEFCD300940C17 /* DDPEvents.swift in Sources */,
+				BAA403DB2169AE0E00F572F3 /* DDPMethodResult.swift in Sources */,
+				BAA403E72169AE0E00F572F3 /* Meteor.swift in Sources */,
+				BAA403CC2169AE0E00F572F3 /* DDPCompletion.swift in Sources */,
+				BAA403E12169AE0E00F572F3 /* DDPExtensions.swift in Sources */,
+				BAA403D52169AE0E00F572F3 /* DDPClient.swift in Sources */,
+				BA4DA49521671FEC00264579 /* MeteorExtension.swift in Sources */,
+				BAA403CF2169AE0E00F572F3 /* DDPMessage.swift in Sources */,
+				BAA403C62169AE0E00F572F3 /* DDPExponentialBackoff.swift in Sources */,
+				BAA403C92169AE0E00F572F3 /* MeteorDocument.swift in Sources */,
+				BAA403E42169AE0E00F572F3 /* MeteorCollection.swift in Sources */,
+				BAA403D22169AE0E00F572F3 /* AbstractCollection.swift in Sources */,
+				BAA403DE2169AE0E00F572F3 /* DDPUtilities.swift in Sources */,
+				BAA403C32169AE0E00F572F3 /* EJSON.swift in Sources */,
+				BAA403D82169AE0E00F572F3 /* DDPEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -954,6 +1087,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BA4DA4C821684D3C00264579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFDED3B1D6BF984000583AA /* SwiftDDP-OSX */;
+			targetProxy = BA4DA4C721684D3C00264579 /* PBXContainerItemProxy */;
+		};
 		D02A725A1BBF07AF00940C17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D02A71DB1BBEFBCA00940C17 /* SwiftDDP */;
@@ -1019,46 +1157,138 @@
 		AAFDED411D6BF984000583AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "SwiftDDP-OSX/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.houndfish.SwiftDDP-OSX";
 				PRODUCT_NAME = SwiftDDP;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		AAFDED421D6BF984000583AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "SwiftDDP-OSX/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.houndfish.SwiftDDP-OSX";
 				PRODUCT_NAME = SwiftDDP;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		BA4DA4CA21684D3C00264579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "SwiftDDP-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.new-3rs.SwiftDDP-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		BA4DA4CB21684D3C00264579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "SwiftDDP-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.new-3rs.SwiftDDP-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1645,6 +1875,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		AD93F6DD2196B5A5006BCCC8 /* Build configuration list for PBXNativeTarget "SwiftDDPFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1686,6 +1917,13 @@
 			buildConfigurations = (
 				ADFB02AB2196A97F00C05B49 /* Debug */,
 				ADFB02AC2196A97F00C05B49 /* Release */,
+=======
+		BA4DA4C921684D3C00264579 /* Build configuration list for PBXNativeTarget "SwiftDDP-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4DA4CA21684D3C00264579 /* Debug */,
+				BA4DA4CB21684D3C00264579 /* Release */,
+>>>>>>> 0086c768d5d39b53c1148cc50fa74ea62e0469aa
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
