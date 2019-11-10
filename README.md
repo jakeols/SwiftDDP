@@ -333,6 +333,9 @@ Creating update and remove methods are also easy to create, and follow the same 
 
 
 ## Changelog
+### 0.5.0
+- Swift 4.2, pre-release 
+
 ### 0.4.0
 - Updated to Swift 3.0
 
