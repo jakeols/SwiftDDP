@@ -6,6 +6,8 @@ SwiftDDP  <img src="https://github.com/siegesmund/SwiftDDP/blob/master/assets/lo
 #### License
 MIT  
 
+##### Note: <i>this repo is actively being update for Swift 5, contributions are welcomed again. </i>
+
 [![Version](https://img.shields.io/cocoapods/v/SwiftDDP.svg?style=flat)](http://cocoapods.org/pods/SwiftDDP)
 [![License](https://img.shields.io/cocoapods/l/SwiftDDP.svg?style=flat)](http://cocoapods.org/pods/SwiftDDP)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftDDP.svg?style=flat)](http://cocoapods.org/pods/SwiftDDP)
